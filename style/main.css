@@ -1,0 +1,240 @@
+@font-face {
+    font-family: Arciform;
+    src: url("/fonts/Arciform.otf")
+}
+
+.header-logo{
+    max-width: 100px;
+    max-height: 80px;
+}
+
+.bg-container {
+    position: relative;
+}
+
+.content-container {
+    position:absolute;
+    bottom : 0;
+}
+
+/*
+.bg-container {
+    position: relative;
+    display:inline;
+}
+
+.content-contact {
+    position : absolute;
+    top:0;
+    left:0;
+}
+
+.line-container{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 10%;
+ }
+
+.ig-container{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 7.5%;
+}
+
+.twitter-container{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    width: 7.5%;
+}
+
+.in-container{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    width: 25%;
+}
+
+.mail-container{
+    position: absolute;
+    top: 800%;
+    left: 42%;
+    width: 15%;
+}
+
+.contact-title-container{
+    font-size:80px;
+    font-family: Reitam, serif;
+    position: absolute;
+    color:white;
+    top: -800%;
+    left: 36.5%;
+    width: 15%;
+}
+
+.copyright-container{
+    font-size:30px;
+    font-family: "Quicksand Bold", serif;
+    position: absolute;
+    color:white;
+    top: 1400%;
+    left: 26.5%;
+    width: 50%;
+}
+
+*/
+
+
+.contact-title{
+    font-size:6vw;
+    font-family: Reitam, serif;
+    color:white;
+}
+
+.copyright-title {
+    font-size: 3vw;
+    font-family: "Quicksand Bold", serif;
+    color: white;
+}
+
+.bg-img{
+    min-height:760px;
+    object-fit:cover;
+}
+
+
+.swiper-container {
+    width: 100%;
+    height: 800px;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    width: 60%;
+}
+.swiper-slide:nth-child(2n) {
+    width: 40%;
+}
+.swiper-slide:nth-child(3n) {
+    width: 20%;
+}
+
+.Reitam-title{
+    font-family: Reitam, serif;
+    font-size: 55px;
+}
+
+.Quicksand-paragraph{
+    font-family: "Quicksand Book", serif;
+    font-size:24px;
+}
+.text-section{
+    margin-left:5%;
+    margin-right:5%;
+}
+.Quicksand-lokasitanggal{
+    font-family: "Quicksand Bold", serif;
+    font-size:45px;
+    text-shadow: 3px 3px black;
+    color : #faa63d;
+    margin: 0;
+}
+.Quicksand-lokasitanggal-content{
+    font-family: "Quicksand Book", serif;
+    font-size:32px;
+    margin: 0;
+    margin-top:15px;
+}
+
+.Quicksand-title{
+    font-family: "Quicksand Bold", serif;
+    font-size:36px;
+}
+
+.Quicksand-color-title{
+    font-family: "Quicksand Bold", serif;
+    font-size:56px;
+    background-image: linear-gradient(to right, #fdb73a, #e4e79b);
+    color:white;
+    border-radius: 25px;
+    display:table;
+}
+
+.button{
+    font-family: "Quicksand Bold", serif;
+    font-size:24px;
+    background-image: linear-gradient(to right, #fdb73a, #dd9f36);
+    color:white;
+    border-radius: 50px;
+    display:table;
+    margin : 4px 6px;
+    width:220px;
+    height:70px;
+}
+
+.button-2{
+    font-family: "Quicksand Bold", serif;
+    font-size:24px;
+    background-image: linear-gradient(to right, #fdb73a, #fd8c28);
+    color:white;
+    border-radius: 50px;
+    display:table;
+    margin : 4px 6px;
+    width:240px;
+    height:65px;
+}
+
+.row-1{
+    height:80px;
+}
+
+.space{
+    margin-top:60px;
+}
+
+.small-space{
+    margin-top:30px;
+}
+
+.Quicksand-color-title-2{
+    font-family: "Quicksand Bold", serif;
+    font-size:56px;
+    background-image: linear-gradient(to right, #fdb73a, #e27a26);
+    color:white;
+    border-radius: 25px;
+    display:table;
+}
+
+.Arciform-title{
+    font-style:italic;
+    font-size:60px;
+    font-family: Arciform,serif;
+    text-align:center;
+}
+
+.form-container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+    padding: 0 10px;
+}
+
+.submit-button{
+    margin : 0 auto;
+}
