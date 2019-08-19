@@ -1,6 +1,6 @@
 @font-face {
     font-family: Arciform;
-    src: url("/fonts/Arciform.otf")
+    src: url("fonts/Arciform.otf")
 }
 
 .header-logo{
@@ -107,7 +107,7 @@
 
 .swiper-container {
     width: 100%;
-    height: 800px;
+    height: 480px;
 }
 .swiper-slide {
     text-align: center;
@@ -126,13 +126,6 @@
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    width: 60%;
-}
-.swiper-slide:nth-child(2n) {
-    width: 40%;
-}
-.swiper-slide:nth-child(3n) {
-    width: 20%;
 }
 
 .Reitam-title{
@@ -237,4 +230,47 @@
 
 .submit-button{
     margin : 0 auto;
+}
+
+:target{
+    padding-top:70px; /* = to height of navbar */
+    margin-top:-70px;
+}
+
+.img-slideshow{
+    width:800px;
+    height:480px;
+}
+.buletan-expo{
+    height:400px;
+    width:400px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+.expo-par1{
+    text-align:justify;
+    text-align-last:right;
+    text-indent:3em;
+}
+.expo-title2{
+    text-align:right;
+}
+.expo-par2{
+    text-align:justify;
+    text-indent:3em;
+}
+.expo-par3{
+    text-align:justify;
+    text-align-last:right;
+    text-indent:3em;
+}
+.buletan-expo-2{
+    height:300px;
+    width:300px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+a#event-nav.navlink.dropdown-toggle.active.dd-active{
+    margin-right:20px;
 }
