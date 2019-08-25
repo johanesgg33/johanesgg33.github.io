@@ -1,11 +1,46 @@
 @font-face {
-    font-family: Arciform;
-    src: url("fonts/Arciform.otf")
+    font-family: "Arciform";
+    src: url("../fonts/Arciform.otf")
 }
 
+@font-face {
+    font-family: "Quicksand Book";
+    src: url("../fonts/Quicksand_Book.otf")
+}
+
+@font-face {
+    font-family: "Quicksand Bold";
+    src: url("../fonts/Quicksand_Bold.otf")
+}
+@font-face {
+    font-family: "Quicksand Bold Oblique";
+    src: url("../fonts/Quicksand_Bold_Oblique.otf")
+}
+@font-face {
+    font-family: "Quicksand Book Oblique";
+    src: url("../fonts/Quicksand_Book_Oblique.otf")
+}
+@font-face {
+    font-family: "Quicksand Book";
+    src: url("../fonts/Quicksand_Book.otf")
+}@font-face {
+    font-family: "Quicksand Light";
+    src: url("../fonts/Quicksand_Light.otf")
+}@font-face {
+    font-family: "Quicksand Light";
+    src: url("../fonts/Quicksand_Light_Oblique.otf")
+}
+@font-face {
+    font-family: "Reitam";
+    src: url("../fonts/Reitam_Regular.otf")
+}
+
+
+
+
 .header-logo{
-    max-width: 100px;
-    max-height: 80px;
+    width: 100px;
+    height: 80px;
 }
 
 .bg-container {
@@ -88,15 +123,16 @@
 
 
 .contact-title{
-    font-size:6vw;
+    font-size:5.2em;
     font-family: Reitam, serif;
     color:white;
 }
 
 .copyright-title {
-    font-size: 3vw;
+    font-size: 2.6em;
     font-family: "Quicksand Bold", serif;
     color: white;
+    text-align:center;
 }
 
 .bg-img{
@@ -105,10 +141,6 @@
 }
 
 
-.swiper-container {
-    width: 100%;
-    height: 480px;
-}
 .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -130,39 +162,51 @@
 
 .Reitam-title{
     font-family: Reitam, serif;
-    font-size: 55px;
+    font-size: 3.5em;
 }
 
 .Quicksand-paragraph{
     font-family: "Quicksand Book", serif;
-    font-size:24px;
+    font-size:1.4em;
 }
 .text-section{
-    margin-left:5%;
-    margin-right:5%;
+    margin-left:7%;
+    margin-right:7%;
 }
 .Quicksand-lokasitanggal{
     font-family: "Quicksand Bold", serif;
-    font-size:45px;
+    font-size:2.8em;
     text-shadow: 3px 3px black;
     color : #faa63d;
     margin: 0;
 }
 .Quicksand-lokasitanggal-content{
     font-family: "Quicksand Book", serif;
-    font-size:32px;
+    font-size:2.2em;
     margin: 0;
-    margin-top:15px;
+    margin-top:12px;
+}
+
+.purple{
+    color:#e69cac;
+}
+
+.blue{
+    color: #69b9d7;
+}
+
+.teal{
+    color: #7dba9e;
 }
 
 .Quicksand-title{
     font-family: "Quicksand Bold", serif;
-    font-size:36px;
+    font-size:2.3em;
 }
 
 .Quicksand-color-title{
     font-family: "Quicksand Bold", serif;
-    font-size:56px;
+    font-size:3.5em;
     background-image: linear-gradient(to right, #fdb73a, #e4e79b);
     color:white;
     border-radius: 25px;
@@ -171,7 +215,7 @@
 
 .button{
     font-family: "Quicksand Bold", serif;
-    font-size:24px;
+    font-size:1.5em;
     background-image: linear-gradient(to right, #fdb73a, #dd9f36);
     color:white;
     border-radius: 50px;
@@ -183,7 +227,7 @@
 
 .button-2{
     font-family: "Quicksand Bold", serif;
-    font-size:24px;
+    font-size:1.5em;
     background-image: linear-gradient(to right, #fdb73a, #fd8c28);
     color:white;
     border-radius: 50px;
@@ -191,10 +235,6 @@
     margin : 4px 6px;
     width:240px;
     height:65px;
-}
-
-.row-1{
-    height:80px;
 }
 
 .space{
@@ -207,7 +247,7 @@
 
 .Quicksand-color-title-2{
     font-family: "Quicksand Bold", serif;
-    font-size:56px;
+    font-size:3.5em;
     background-image: linear-gradient(to right, #fdb73a, #e27a26);
     color:white;
     border-radius: 25px;
@@ -216,8 +256,8 @@
 
 .Arciform-title{
     font-style:italic;
-    font-size:60px;
-    font-family: Arciform,serif;
+    font-size:4em;
+    font-family: "Arciform",serif;
     text-align:center;
 }
 
@@ -225,22 +265,55 @@
     max-width: 1000px;
     margin-left: auto;
     margin-right:auto;
-    padding: 0 10px;
+    padding: 0 50px;
 }
 
-.submit-button{
-    margin : 0 auto;
-}
 
 :target{
     padding-top:70px; /* = to height of navbar */
     margin-top:-70px;
 }
 
-.img-slideshow{
-    width:800px;
-    height:480px;
+
+@media (min-width: 100px) {
+    .img-slideshow{
+        width:800px;
+        height:160px;
+        object-fit: contain;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 160px;
+    }
 }
+
+@media (min-width: 576px) {
+    .img-slideshow{
+        width:800px;
+        height:360px;
+        object-fit: contain;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 360px;
+    }
+}
+
+@media (min-width: 768px) {
+    .img-slideshow{
+        width:800px;
+        height:480px;
+        object-fit: contain;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 480px;
+    }
+}
+
 .buletan-expo{
     height:400px;
     width:400px;
@@ -273,4 +346,45 @@
 
 a#event-nav.navlink.dropdown-toggle.active.dd-active{
     margin-right:20px;
+}
+
+.form-title{
+    font-size:4em;
+    text-align:center;
+    text-shadow:gray;
+}
+
+
+.mtop{
+    margin-top:80px;
+}
+.mbot{
+    margin-bottom:50px;
+}
+@media (min-width: 100px) and (max-width: 560px){
+    .mbot{
+        margin-bottom:10px;
+    }
+    .mtop{
+        margin-top:50px;
+    }
+    .header-logo{
+        height:50px;
+        width:60px;
+    }
+    .contact-img-mail{
+        width:90px;
+    }
+    .contact-img-in{
+        width:140px;
+    }
+    .bg-img{
+        min-height:360px;
+    }
+    .contact-title{
+        font-size:2.6em;
+    }
+    .copyright-title{
+        font-size:1.3em;
+    }
 }
